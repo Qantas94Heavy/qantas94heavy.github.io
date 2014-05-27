@@ -4,8 +4,9 @@ function getPage() {
   if (hash === 'home') location.hash = '';
   $('.content').load('eportfolio/pages/' + hash + '.html', function () {
     var buttons = $('.header li');
-    if (buttons.find('a[href="#' + hash + '"]').parent().parent().hasClass(
-    buttons.removeClass('active').find('a[href="#' + hash + '"]').parent().addClass('active');
+    var a = buttons.find('a[href="#' + hash + '"]').parent().parent();
+    if (a.hasClass('dropdown-menu')) a.addClass('active');
+    else buttons.removeClass('active').find('a[href="#' + hash + '"]').parent().addClass('active');
   });
 }
 
