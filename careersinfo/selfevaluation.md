@@ -51,14 +51,23 @@ A: I'm good at mathematics, science and public speaking.
 
 ### Weaknesses
 
+**Q: What school subjects are hard for me?**
+
+A: I find subjects such as art hard, as the forms of art performed at school don't really fit into my style of art, and I'm not too experienced with creating works of art. Though I have quite a few ideas, actually creating the work is much harder.
+
+### Skills – learning style
+
+**Q: What is you learning style? Give examples of when you learn the best.**
+
+A: I prefer to see things being done or to read about how it's done. I find it quite hard to just listen to something and be expected to perform it perfectly -- images and visuals help me significantly.
+
+
+
 
 <!--
 
-What school subjects are hard for me?
 What don't I like to do?
 What is hard for me?
-Skills – learning style
-What is my learning style? Give examples of when you learn the best
 Accomplishments
 What accomplishments am I most proud of?
 What have I learned from my accomplishments?

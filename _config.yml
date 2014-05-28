@@ -6,13 +6,20 @@ defaults:
     values:
       layout: "default"
 navigation:
-  - text: What we do
-    url: /en/what-we-do/
-  - text: Who we are
-    url: /en/who-we-are/
-  - text: Projects
-    url: /en/projects/
-    layout: project
-  - text: Blog
-    url: /en/blog/
-    layout: post
+  - text: Home
+    url: /eportfolio/
+  - text: About
+    url: /eportfolio/about.html
+  - text: Portfolio
+    url: /eportfolio/portfolio.html
+  - text: Careers Info
+    url: ~
+    children:
+      - text: Achievements
+        url: /eportfolio/careersinfo/achievements.html
+      - text: Career Talks
+        url: /eportfolio/careersinfo/careertalks.html
+      - text: Self Evaluation
+        url: /eportfolio/careersinfo/selfevaluation.html
+      - text: Tertiary Options
+        url: /eportfolio/careersinfo/tertiary.html
