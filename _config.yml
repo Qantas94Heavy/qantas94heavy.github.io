@@ -1,8 +1,18 @@
 gems:
   - jekyll-redirect-from
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # empty string for all files
     values:
       layout: "default"
+navigation:
+  - text: What we do
+    url: /en/what-we-do/
+  - text: Who we are
+    url: /en/who-we-are/
+  - text: Projects
+    url: /en/projects/
+    layout: project
+  - text: Blog
+    url: /en/blog/
+    layout: post
