@@ -1,4 +1,6 @@
-<!-- based on the Jumbotron Narrow example from http://getbootstrap.com :) -->
+---
+# based on the Jumbotron Narrow example from http://getbootstrap.com :)
+---
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,21 +19,20 @@
     <div class="container">
       <div class="header">
         <ul class="nav nav-pills pull-right">
-          <li><a href="{{ site.baseurl }}index.html">Home</a></li>
-					<li><a href="{{ site.baseurl }}about.html">About</a></li>
-          <li><a href="{{ site.baseurl }}portfolio.html">Portfolio</a></li>
-          
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown">Careers Info <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="{{ site.baseurl }}careersinfo/achievements.html">Achievements</a></li>
-              <li><a href="{{ site.baseurl }}careersinfo/selfevaluation.html">Self Evaluation</a></li>
-              <li><a href="{{ site.baseurl }}careersinfo/careertalks.html">Career Talks</a></li>
-              <li><a href="{{ site.baseurl }}careersinfo/tertiary.html">Tertiary Options</a></li>
-            </ul>
-          </li>
-          
-          <!--<li><a href="#contact">Contact</a></li>-->
+        {% for link in site.navigation %}
+          {% if link.children %}
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown">{{ link.text }} <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+              {% for child in link.children %}
+                <li><a href="{{ site.baseurl }}{{ child.url | remove-first '/' }}">{{ child.text }}</a></li>
+              {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li><a href="{{ site.baseurl }}{{ link.url | remove-first '/' }}">Home</a></li>
+          {% endif %}
+        {% endfor %}
         </ul>
         
         <h3 class="text-muted">Karl's e-Portfolio</h3>

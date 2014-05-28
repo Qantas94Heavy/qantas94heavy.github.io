@@ -4,22 +4,22 @@ defaults:
   - scope:
       path: "" # empty string for all files
     values:
-      layout: "default"
+      layout: default
 navigation:
   - text: Home
-    url: /eportfolio/
+    url: /
   - text: About
-    url: /eportfolio/about.html
-  - text: Portfolio
-    url: /eportfolio/portfolio.html
+    url: /about.html
+#  - text: Portfolio
+#    url: /portfolio.html
   - text: Careers Info
     url: ~
     children:
       - text: Achievements
-        url: /eportfolio/careersinfo/achievements.html
+        url: /careersinfo/achievements.html
       - text: Career Talks
-        url: /eportfolio/careersinfo/careertalks.html
+        url: /careersinfo/careertalks.html
       - text: Self Evaluation
-        url: /eportfolio/careersinfo/selfevaluation.html
+        url: /careersinfo/selfevaluation.html
       - text: Tertiary Options
-        url: /eportfolio/careersinfo/tertiary.html
+        url: /careersinfo/tertiary.html
