@@ -1,5 +1,55 @@
-{% include header.html %}
+---
+# based on the Jumbotron Narrow example from http://getbootstrap.com :)
+---
 
-{{ content }}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="{{ site.baseurl }}dist/css/bootstrap.css" rel="stylesheet">
+    
+    <!-- Custom styles for this template --> 
+    <link href="{{ site.baseurl }}css/jumbotron-narrow.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+        {% for link in site.navigation %}
+          {% if link.children %}
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown">{{ link.text }} <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+              {% for child in link.children %}
+                <li><a href="{{ site.baseurl }}{{ child.url | remove-first '/' }}">{{ child.text }}</a></li>
+              {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li><a href="{{ site.baseurl }}{{ link.url | remove-first '/' }}">Home</a></li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+        
+        <h3 class="text-muted">Karl's e-Portfolio</h3>
+      </div>
+      
+      <div class="content">{{ content }}</div>
 
-{% include footer.html %}
+      <div class="footer">
+        <p>Copyright &copy; Karl Cheng, 2014</p>
+      </div>
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+		<script src="dist/js/jquery-1.11.1.js"></script>
+    <script src="dist/js/bootstrap.js"></script>
+		<script src="js/code.js"></script>
+  </body>
+</html>
