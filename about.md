@@ -1,4 +1,5 @@
 ---
+layout: default
 ---
 
 My name's Karl, and I'm a student at AISHK (Australian International School Hong Kong).

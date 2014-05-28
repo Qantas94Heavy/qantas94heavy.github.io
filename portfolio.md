@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <div class="row marketing">
   <h2>A few example of what I've done:</h2>
   <h3>GEFS Plugins</h3>
