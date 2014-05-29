@@ -27,7 +27,9 @@ A: Most important to me is the notion of respecting one another as equals -- I b
 
 A: I play tennis on the weekends, and I'm a member of a debating group that meets up after school weekly.
 
-**Q: What do you do with your spare time?**
+**Q: What do you do in your spare time?**
+
+A: I try and learn new things about subjects I'm interested in when I can to be able to get ahead in my understanding. I also like to do hobbies such as programming.
 
 ### Strengths
 
