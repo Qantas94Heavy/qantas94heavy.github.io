@@ -20,8 +20,8 @@ navigation:
     children:
       - text: Achievements
         url: /achievements.html
-      - text: Personality
-        url: /personality.html
+     # - text: Personality
+      #  url: /personality.html
       - text: Career Talks
         url: /careertalks.html
       - text: Self Evaluation
