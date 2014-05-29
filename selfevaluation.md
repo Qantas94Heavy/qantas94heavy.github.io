@@ -44,17 +44,25 @@ A: I'm good at mathematics, science and public speaking.
 
 **Q: What do you feel most comfortable doing?**
 
-**Q: What do you get complimented on the most?**
+I feel most comfortable when I'm able to show what I'm capable of over a long period of time.
 
 **Q: What do you get complimented on the most?**
+
+I'm often complimented on my ability to complete things quickly under a short turnaround, however for longer periods the improvement in quality is not that much.
 
 **Q: What obstacles have you overcome?**
 
+I've overcome being fearful of conceptual, artistic ideas, even though I'm not that good at them. This has been especially prevalent over the past two years with the Design and Technology subject at school.
+
 ### Weaknesses
 
-**Q: What school subjects are hard for me?**
+**Q: What school subjects are hard for you?**
 
 A: I find subjects such as art hard, as the forms of art performed at school don't really fit into my style of art, and I'm not too experienced with creating works of art. Though I have quite a few ideas, actually creating the work is much harder.
+
+**Q: What is hard for you??**
+
+A: I find it hard in situations where I'm asked to do something without knowing what is expected from the person asking for the job to be completed.
 
 ### Skills – learning style
 
@@ -63,12 +71,8 @@ A: I find subjects such as art hard, as the forms of art performed at school don
 A: I prefer to see things being done or to read about how it's done. I find it quite hard to just listen to something and be expected to perform it perfectly -- images and visuals help me significantly.
 
 
-
-
 <!--
 
-What don't I like to do?
-What is hard for me?
 Accomplishments
 What accomplishments am I most proud of?
 What have I learned from my accomplishments?
