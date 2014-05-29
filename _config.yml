@@ -9,8 +9,10 @@ defaults:
 navigation:
   - text: Home
     url: /
+    children: false
   - text: About
     url: /about.html
+    children: false
 #  - text: Portfolio
 #    url: /portfolio.html
   - text: Careers Info

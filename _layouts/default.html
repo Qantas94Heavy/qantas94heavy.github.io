@@ -20,25 +20,25 @@
       <div class="header">
         <ul class="nav nav-pills pull-right">
           {% for link in site.navigation %}
-            {% if link.children.empty? %}
-              {% if page.url == child.url %}
-                <li><a href="{{ site.baseurl }}{{ link.url | remove-first: '/' }}" class="active">Home</a></li>
-              {% else %}
-                <li><a href="{{ site.baseurl }}{{ link.url | remove-first: '/' }}">Home</a></li>
-              {% endif %}
-            {% else %}
-              <li class="dropdown">
-                {% if page.url == child.url %}
-                  <a class="dropdown-toggle active" data-toggle="dropdown">{{ link.text }} <span class="caret"></span></a>
-                {% else %}
-                  <a class="dropdown-toggle" data-toggle="dropdown">{{ link.text }} <span class="caret"></span></a>
-                {% endif %}
+            {% if link.children %}
+                <li class="dropdown">
+                {% assign isActive = "" %}
+                {% for child in link.children %}
+                  {% if page.url == child.url %}
+                    {% assign isActive = "active" %}
+                  {% endif %}
+                {% endfor %}
+                <a class="dropdown-toggle {{ isActive }}" data-toggle="dropdown">{{ link.text }} <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   {% for child in link.children %}
-                    <li><a href="{{ site.baseurl }}{{ child.url | remove-first: '/' }}" class="">{{ child.text }}</a></li>
+                    <li><a href="{{ site.baseurl }}{{ child.url | remove_first: '/' }}" class="">{{ child.text }}</a></li>
                   {% endfor %}
                 </ul>
-              </li>        
+              </li> 
+            {% elsif page.url == link.url %}
+              <li><a href="{{ site.baseurl }}{{ link.url | remove_first: '/' }}" class="active">{{ link.text }}</a></li>
+            {% else %}
+              <li><a href="{{ site.baseurl }}{{ link.url | remove_first: '/' }}">{{ link.text }}</a></li>
             {% endif %}
           {% endfor %}
         </ul>
