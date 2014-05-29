@@ -13,9 +13,6 @@ A: Unlike other people, I'm not afraid to try out something different. I'm not a
 
 A: I'd say that I'm quirky, inquisitive and strong-minded.
 
-**Q: How would friends describe you?**
-
-
 **Q: What is your family like?**
 
 A: My family's fairly conservative. However, my parents both respect most of the decisions that I've taken in life, though there's been ups and downs in family relationships.
