@@ -21,7 +21,7 @@
         <ul class="nav nav-pills pull-right">
           {% assign isActive = "" %}
           {% for link in site.navigation %}
-            {% if link.children %}
+            {% if link.children.empty? %}
               <li><a href="{{ site.baseurl }}{{ link.url | remove-first: '/' }}">Home</a></li>
             {% else %}
               <li class="dropdown">
