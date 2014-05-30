@@ -1,8 +1,14 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  padding-top: 0;
   padding-bottom: 20px;
   background-color: #FFFDD0;
+}
+
+/* stop background colour infecting container */
+.container {
+  margin-top: 20px;
+  background-color: #FFF;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
