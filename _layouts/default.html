@@ -18,31 +18,31 @@
   <body>
     <div class="header container">
       <ul class="nav nav-pills pull-right">
-	{% for link in site.navigation %}
-	  {% if link.children %}
-	      <li class="dropdown">
-	      {% assign isActive = "" %}
-	      {% for child in link.children %}
-		{% if page.url == child.url %}
-		  {% assign isActive = "active" %}
-		{% endif %}
-	      {% endfor %}
-	      <a class="dropdown-toggle {{ isActive }}" data-toggle="dropdown">{{ link.text }} <span class="caret"></span></a>
-	      <ul class="dropdown-menu">
-		{% for child in link.children %}
-		  <li><a href="{{ site.baseurl }}{{ child.url | remove_first: '/' }}" class="">{{ child.text }}</a></li>
-		{% endfor %}
-	      </ul>
-	    </li> 
-	  {% elsif page.url == link.url %}
-	    <li><a href="{{ site.baseurl }}{{ link.url | remove_first: '/' }}" class="active">{{ link.text }}</a></li>
-	  {% else %}
-	    <li><a href="{{ site.baseurl }}{{ link.url | remove_first: '/' }}">{{ link.text }}</a></li>
-	  {% endif %}
-	{% endfor %}
+			{% for link in site.navigation %}
+				{% if link.children %}
+						<li class="dropdown">
+						{% assign isActive = "" %}
+						{% for child in link.children %}
+				{% if page.url == child.url %}
+					{% assign isActive = "active" %}
+				{% endif %}
+						{% endfor %}
+						<a class="dropdown-toggle {{ isActive }}" data-toggle="dropdown">{{ link.text }} <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+				{% for child in link.children %}
+					<li><a href="{{ site.baseurl }}{{ child.url | remove_first: '/' }}" class="">{{ child.text }}</a></li>
+				{% endfor %}
+						</ul>
+					</li> 
+				{% elsif page.url == link.url %}
+					<li><a href="{{ site.baseurl }}{{ link.url | remove_first: '/' }}" class="active">{{ link.text }}</a></li>
+				{% else %}
+					<li><a href="{{ site.baseurl }}{{ link.url | remove_first: '/' }}">{{ link.text }}</a></li>
+				{% endif %}
+			{% endfor %}
       </ul>
       
-      <h3 class="text-muted">Karl's e-Portfolio</h3>
+      <h3 class="text-muted">My e-Portfolio</h3>
     </div>
     
     
