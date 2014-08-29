@@ -56,11 +56,7 @@ I've overcome being fearful of conceptual, artistic ideas, even though I'm not t
 
 ### Weaknesses
 
-**Q: What school subjects are hard for you?**
-
-A: I find subjects such as art hard, as the forms of art performed at school don't really fit into my style of art, and I'm not too experienced with creating works of art. Though I have quite a few ideas, actually creating the work is much harder.
-
-**Q: What is hard for you??**
+**Q: What is hard for you?**
 
 A: I find it hard in situations where I'm asked to do something without knowing what is expected from the person asking for the job to be completed.
 
@@ -68,14 +64,21 @@ A: I find it hard in situations where I'm asked to do something without knowing 
 
 **Q: What is you learning style? Give examples of when you learn the best.**
 
-A: I prefer to see things being done or to read about how it's done. I find it quite hard to just listen to something and be expected to perform it perfectly -- images and visuals help me significantly.
+A: I prefer to see things being done or to read about how it's done.
 
+### Accomplishments
+
+**Q: What accomplishments am I most proud of?**
+
+In 2008, I was awarded a medal in the EAA UNSW 
+
+What have I learned from my accomplishments?
 
 <!--
-
+Weaknesses
+What school subjects are hard for you?
 Accomplishments
-What accomplishments am I most proud of?
-What have I learned from my accomplishments?
+
 Experiences
 What experiences do I have that will help with a job?
 Goals
