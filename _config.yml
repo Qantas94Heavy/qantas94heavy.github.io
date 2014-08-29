@@ -13,8 +13,8 @@ navigation:
   - text: About
     url: /about.html
     children: false
-#  - text: Portfolio
-#    url: /portfolio.html
+  - text: Portfolio
+    url: /portfolio.html
   - text: Careers Info
     url: ~
     children:
