@@ -5,27 +5,21 @@ layout: default
 <!-- I don't think we really should be showing this. I've just put this here in case I change my mind. -->
 
 <div class="row marketing">
-
-  ## Awards
+	<h2>Awards</h2>
+	
+  <h3>2008:</h3>
+		<ul><li>Medal winner of UNSW EAA Computer Skills Competition</li></ul>
   
-  ### 2008:
+  <h3>2010:</h3>
+		<ul><li>2nd place in New South Wales Metropolitan East Schools Team Chess Competition</li></ul>
   
-   - Medal winner of UNSW EAA Computer Skills Competition
-  
-  ### 2010:
-  
-   - 2nd place in New South Wales Metropolitan East Schools Team Chess Competition
-  
-  ### 2011:
-  
-   - High Distinction in the Australian Mathematics Competition
+  <h3>2011:</h3>
+		<ul><li>High Distinction in the Australian Mathematics Competition</li></ul>
    
-  ### 2012:
+  <h3>2012:</h3>
+		<ul><li>Prudence Award and High Distinction in the Australian Mathematics Competition</li></ul>
    
-   -  Prudence Award and High Distinction in the Australian Mathematics Competition
-   
-  ### 2013:
-  
-   - High Distinction in the UNSW EAA Science Competition
+  <h3>2013:</h3>
+		<ul><li>High Distinction in the UNSW EAA Science Competition</li></ul>
   
 </div>
