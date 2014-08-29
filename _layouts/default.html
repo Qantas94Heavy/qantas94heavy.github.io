@@ -22,12 +22,12 @@
 					{% for link in site.navigation %}
 						{% if link.children %}
 							<li class="dropdown">
-							{% assign isActive = "" %}
-							{% for child in link.children %}
-								{% if page.url == child.url %}
-									{% assign isActive = "active" %}
-								{% endif %}
-							{% endfor %}
+                {% assign isActive = "" %}
+                {% for child in link.children %}
+                  {% if page.url == child.url %}
+                    {% assign isActive = "active" %}
+                  {% endif %}
+                {% endfor %}
 								<a class="dropdown-toggle {{ isActive }}" data-toggle="dropdown">{{ link.text }} <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 								{% for child in link.children %}
