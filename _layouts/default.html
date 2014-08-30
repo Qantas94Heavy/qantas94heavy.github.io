@@ -10,15 +10,15 @@
     <title>Home</title>
     
     <!-- Bootstrap core CSS -->
-    <link href="{{ site.baseurl }}dist/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/dist/css/bootstrap.css" rel="stylesheet">
     
     <!-- Custom styles for this template --> 
-    <link href="{{ site.baseurl }}css/jumbotron-narrow.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/css/jumbotron-narrow.css" rel="stylesheet">
   </head>
   <body>
     <div class="header">
 			<div class="container">
-				<ul class="nav nav-pills pull-right">
+        <ul class="nav nav-pills pull-right">
 					{% for link in site.navigation %}
 						{% if link.children %}
 							<li class="dropdown">
@@ -38,7 +38,7 @@
 						{% elsif page.url == link.url %}
 							<li><a href="{{ site.baseurl }}{{ link.url }}" class="active">{{ link.text }}</a></li>
 						{% else %}
-							<li><a href="{{ site.baseurl }}{{ link.url | remove_first: '/' }}">{{ link.text }}</a></li>
+							<li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a></li>
 						{% endif %}
 					{% endfor %}
 				</ul>
@@ -59,8 +59,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-		<script src="{{ site.baseurl }}dist/js/jquery-1.11.1.js"></script>
-    <script src="{{ site.baseurl }}dist/js/bootstrap.js"></script>
-		<script src="{{ site.baseurl }}js/code.js"></script>
+		<script src="{{ site.baseurl }}/dist/js/jquery-1.11.1.js"></script>
+    <script src="{{ site.baseurl }}/dist/js/bootstrap.js"></script>
+		<script src="{{ site.baseurl }}/js/code.js"></script>
   </body>
 </html>

@@ -5,22 +5,24 @@ defaults:
       path: "" # empty string for all files
     values:
       layout: default
-baseurl: /eportfolio/
+baseurl: /eportfolio
 navigation:
   - text: About
-    url: about.html
+    url: /about.html
+    children: false
   - text: Portfolio
-    url: portfolio.html
+    url: /portfolio.html
+    children: false
   - text: Careers Info
-    url: ~
+    url: /
     children:
 #      - text: Achievements
 #        url: achievements.html
 #      - text: Personality
 #        url: personality.html
       - text: Career Talks
-        url: careertalks.html
+        url: /careertalks.html
       - text: Self Evaluation
-        url: selfevaluation.html
+        url: /selfevaluation.html
       - text: Tertiary Options
-        url: tertiary.html
+        url: /tertiary.html
