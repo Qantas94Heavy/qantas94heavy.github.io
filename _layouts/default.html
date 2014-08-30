@@ -18,6 +18,8 @@
   <body>
     <div class="header">
 			<div class="container">
+        <h3><a href="{{ site.baseurl }}">Karl Cheng &ndash; ePortfolio</a></h3>
+        
 				<ul class="nav nav-pills pull-right">
 					{% for link in site.navigation %}
 						{% if link.children %}
@@ -31,19 +33,17 @@
 								<a class="dropdown-toggle {{ isActive }}" data-toggle="dropdown">{{ link.text }} <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 								{% for child in link.children %}
-									<li><a href="{{ site.baseurl }}{{ child.url | remove_first: '/' }}" class="">{{ child.text }}</a></li>
+									<li><a href="{{ site.baseurl }}{{ child.url }}">{{ child.text }}</a></li>
 								{% endfor %}
 								</ul>
 							</li> 
 						{% elsif page.url == link.url %}
-							<li><a href="{{ site.baseurl }}{{ link.url | remove_first: '/' }}" class="active">{{ link.text }}</a></li>
+							<li><a href="{{ site.baseurl }}{{ link.url }}" class="active">{{ link.text }}</a></li>
 						{% else %}
 							<li><a href="{{ site.baseurl }}{{ link.url | remove_first: '/' }}">{{ link.text }}</a></li>
 						{% endif %}
 					{% endfor %}
 				</ul>
-				
-				<h3>Karl Cheng &ndash; ePortfolio</h3>
 			</div>
     </div>
     
