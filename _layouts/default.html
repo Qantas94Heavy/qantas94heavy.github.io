@@ -18,8 +18,6 @@
   <body>
     <div class="header">
 			<div class="container">
-        <h3><a href="{{ site.baseurl }}">Karl Cheng &ndash; ePortfolio</a></h3>
-        
 				<ul class="nav nav-pills pull-right">
 					{% for link in site.navigation %}
 						{% if link.children %}
@@ -44,6 +42,8 @@
 						{% endif %}
 					{% endfor %}
 				</ul>
+        
+        <h3><a href="{{ site.baseurl }}">Karl Cheng &ndash; ePortfolio</a></h3>
 			</div>
     </div>
     
