@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div class="row marketing">
-  <h2>Portfolio</h2>
+## Portfolio
 
+<div class="row marketing">
   Here are a few example of what I've done.
   
   <h3>GEFS Plugins</h3>
@@ -22,9 +22,11 @@ layout: default
     
     As the name implies, this plugin adds nose wheel steering support to GEFS, separate to the rudder function.
   </div>
-  
+</div>
+
+<div class="row marketing">
   <h3><a href="//github.com/Qantas94Heavy/gamepad-shim">HTML5 Gamepad Shim</a></h3>
-    
+
   This attempts to utilise browser-specific prefixes and Adobe Flash as a fallback for the HTML5 Gamepad API,
   allowing the use of joysticks in multiple browsers.
 </div>
