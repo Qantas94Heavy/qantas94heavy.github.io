@@ -3,9 +3,11 @@ layout: default
 ---
 
 <div class="row marketing">
+  <h2>Portfolio</h2>
+
   Here are a few example of what I've done.
   
-  <h2>GEFS Plugins</h2>
+  <h3>GEFS Plugins</h3>
   
   <div class="col-lg-6">
     <h4><a href="//github.com/Qantas94Heavy/autopilot-pp">Autopilot++</a></h4>

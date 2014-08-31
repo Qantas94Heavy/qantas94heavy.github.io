@@ -21,14 +21,14 @@
         <ul class="nav nav-pills pull-right">
 					{% for link in site.navigation %}
 						{% if link.children %}
-							<li class="dropdown">
-                {% assign isActive = "" %}
-                {% for child in link.children %}
-                  {% if page.url == child.url %}
-                    {% assign isActive = "active" %}
-                  {% endif %}
-                {% endfor %}
-								<a class="dropdown-toggle {{ isActive }}" data-toggle="dropdown">{{ link.text }} <span class="caret"></span></a>
+              {% assign isActive = "" %}
+              {% for child in link.children %}
+                {% if page.url == child.url %}
+                  {% assign isActive = "active" %}
+                {% endif %}
+              {% endfor %}
+							<li class="dropdown {{ isActive }}">
+								<a class="dropdown-toggle" data-toggle="dropdown">{{ link.text }} <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 								{% for child in link.children %}
 									<li><a href="{{ site.baseurl }}{{ child.url }}">{{ child.text }}</a></li>
@@ -36,7 +36,7 @@
 								</ul>
 							</li> 
 						{% elsif page.url == link.url %}
-							<li><a href="{{ site.baseurl }}{{ link.url }}" class="active">{{ link.text }}</a></li>
+							<li class="active"><a href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a></li>
 						{% else %}
 							<li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a></li>
 						{% endif %}
