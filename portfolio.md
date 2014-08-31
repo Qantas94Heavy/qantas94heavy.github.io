@@ -23,10 +23,8 @@ layout: default
     As the name implies, this plugin adds nose wheel steering support to GEFS, separate to the rudder function.
   </div>
   
-  <div class="col-lg-6">
-    <h4><a href="//github.com/Qantas94Heavy/gamepad-shim">HTML5 Gamepad Shim</a></h4>
+  <h3><a href="//github.com/Qantas94Heavy/gamepad-shim">HTML5 Gamepad Shim</a></h3>
     
-    This attempts to utilise browser-specific prefixes and Adobe Flash as a fallback for the HTML5 Gamepad API,
-    allowing the use of joysticks in multiple browsers.
-  </div>
+  This attempts to utilise browser-specific prefixes and Adobe Flash as a fallback for the HTML5 Gamepad API,
+  allowing the use of joysticks in multiple browsers.
 </div>
