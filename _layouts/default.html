@@ -18,6 +18,8 @@
   <body>
     <div class="header">
 			<div class="container">
+        <h2 class="pull-left"><a href="{{ site.baseurl }}">Karl Cheng</a></h2>
+        
         <ul class="nav nav-pills pull-right">
 					{% for link in site.navigation %}
 						{% if link.children %}
@@ -41,9 +43,9 @@
 							<li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a></li>
 						{% endif %}
 					{% endfor %}
+          <li><a href="https://github.com/Qantas94Heavy"><img src="logos/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png" width="20" height="20"></a></li>
+          <li><a href="http://stackoverflow.com/users/2074608/qantas-94-heavy"><img src="logos/so-icon.png" width="20" height="20"></a></li>
 				</ul>
-        
-        <h3><a href="{{ site.baseurl }}">Karl Cheng &ndash; ePortfolio</a></h3>
 			</div>
     </div>
     
