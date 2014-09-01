@@ -1,3 +1,5 @@
+@import url(titlefont/josefin-sans.css)
+
 /* Space out content a bit */
 body {
   padding-top: 0;
@@ -44,7 +46,8 @@ body {
 }
 
 /* Make the masthead heading the same height as the navigation */
-.header h3 {
+.header h2 {
+  font-family: "Josefin Sans";
   padding-bottom: 19px;
   margin-top: 0;
   margin-bottom: 0;
