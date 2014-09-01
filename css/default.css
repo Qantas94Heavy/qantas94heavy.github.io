@@ -5,6 +5,20 @@ body {
   background-color: #000;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
+.logo {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
+
+.logo > img {
+  width: 32px;
+  height: 32px;
+}
+
 /* stop background colour infecting container */
 .container {
   margin-top: 0;
