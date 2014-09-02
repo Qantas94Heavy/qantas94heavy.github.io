@@ -1,10 +1,12 @@
 @import url(fonts/titlefont/josefin-sans.css);
+@import url(fonts/opensans/opensans.css);
 
 /* Space out content a bit */
 body {
   padding-top: 0;
   padding-bottom: 20px;
   background-color: #000;
+  font-family: 'Open Sans';
 }
 
 .pointer {
@@ -49,7 +51,7 @@ body {
 
 /* Make the masthead heading the same height as the navigation */
 .header h2 {
-  font-family: "Josefin Sans";
+  font-family: 'Josefin Sans';
   font-weight: bold;
   padding-bottom: 19px;
   margin-top: 0;
@@ -66,14 +68,24 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
-.content {
-  border-radius: 4px;
+.runway {
   background-image: url(../img/runway_seamless.png);
   background-repeat: repeat-y;
   background-size: cover;
 }
 
+.content {
+  border-radius: 4px;
+  
+}
+
 /* Customize container */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 730px;
