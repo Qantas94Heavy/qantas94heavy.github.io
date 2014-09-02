@@ -4,20 +4,25 @@ layout: default
 
 ## About me
 
-My name's Karl, and I'm a student at AISHK (Australian International School Hong Kong).
+My name's Karl Cheng, and I'm a Year 10 student (equivalent of Form 4) at the Australian International School Hong Kong.
 
-Though I'm not exactly the type of person who's ridiculously popular, I'm not afraid to speak out about my personal
-opinion on contraversial topics. I'm always on the lookout for new ways to do things, and I'm not the type of person
-to stick to old methods just because they've worked in the past.
+I'd like to consider myself as quirky, inquisitive and strong-minded.
 
-### Interests and Hobbies
+I'm always on the lookout for new ways to do things, and I'm not the type of person to stick to old methods just because they've worked in the past.
 
-In my free time I create various websites and applications. My favourite programming language is JavaScript,
-followed closely by Python (it would be if I could use it client-side).
+It's especially self-motivating when my work is actually appreciated by someone in the real world. I also find it useful to be interested in the general field of the subject I'm learning about.
 
-I'm interested in issues issues concerning equality, as well as rights and privileges granted to certain groups in society.
-Education research is something that I'm keen to look into, to help myself understand problems with current teaching practices
-and ways to help myself learn regardless of these issues.
+In my free time I create various websites and applications. 
 
-I'm also not bad at public speaking and debating, and play tennis on the weekend to stay active. From time to time I also
-do a bit of photography.
+### Skills and Interests
+
+In my free time I:
+
+ - Participate in an after-school debating club at school (being unafraid to provide my opinion on contraversial topics does help).
+ - Go to tennis class on the weekends to stay active.
+ - 
+
+
+### Programming
+
+My favourite programming language is JavaScript, followed closely by Python (it would be if I could use it client-side). I don't know too many other programming languages, though I'm currently learning how to use Rust, which requires quite a different mindset.

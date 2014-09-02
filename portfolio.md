@@ -4,11 +4,11 @@ layout: default
 
 ## Portfolio
 
+Here are a few example of what I've done.
+
+<h3>GEFS Plugins</h3>
+
 <div class="row marketing">
-  Here are a few example of what I've done.
-  
-  <h3>GEFS Plugins</h3>
-  
   <div class="col-lg-6">
     <h4><a href="//github.com/Qantas94Heavy/autopilot-pp">Autopilot++</a></h4>
    
@@ -24,8 +24,10 @@ layout: default
   </div>
 </div>
 
+<h3>Others</h3>
+
 <div class="row marketing">
-  <h3><a href="//github.com/Qantas94Heavy/gamepad-shim">HTML5 Gamepad Shim</a></h3>
+  <h4><a href="//github.com/Qantas94Heavy/gamepad-shim">HTML5 Gamepad Shim</a></h4>
 
   This attempts to utilise browser-specific prefixes and Adobe Flash as a fallback for the HTML5 Gamepad API,
   allowing the use of joysticks in multiple browsers.

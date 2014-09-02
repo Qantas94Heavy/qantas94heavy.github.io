@@ -58,21 +58,13 @@ I've overcome being fearful of conceptual, artistic ideas, even though I'm not t
 
 **Q: What is hard for you?**
 
-A: I find it hard in situations where I'm asked to do something without knowing what is expected from the person asking for the job to be completed.
+A: I find it hard in situations where I'm asked to do something without knowing what is expected from the person asking for the job to be completed. Attempting to predict exactly what someone else wants without having a basic idea of what they require is not exactly my cup of tea.
 
 ### Skills – learning style
 
 **Q: What is you learning style? Give examples of when you learn the best.**
 
-A: I prefer to see things being done or to read about how it's done.
-
-### Accomplishments
-
-**Q: What accomplishments am I most proud of?**
-
-In 2008, I was awarded a medal in the EAA UNSW 
-
-What have I learned from my accomplishments?
+A: I prefer to see things being done or to read about how it's done, it's much more clear exactly what goes where and how everything fits together. I also don't mind learning by practising, though it would be good to have a bit of guidance if I'm doing that.
 
 <!--
 Weaknesses
