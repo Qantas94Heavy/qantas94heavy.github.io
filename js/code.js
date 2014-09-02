@@ -7,8 +7,11 @@ function getPage() {
 getPage();
 $(window).on('hashchange', getPage);
 
-$('#github').hover(function () {
-  this.src = this.src.replace('GitHub-Mark-Light', 'Github-Mark');
+var $github = $('#github');
+var $githubImg = $github.find('img');
+
+$github.hover(function () {
+  $githubImg.attr('src', $githubImg.attr('src').replace('/GitHub-Mark-Light', '/GitHub-Mark'));
 }, function () {
-  this.src = this.src.replace('GitHub-Mark', 'Github-Mark-Light');
+  $githubImg.attr('src', $githubImg.attr('src').replace('/GitHub-Mark', '/GitHub-Mark-Light'));
 });
