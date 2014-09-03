@@ -24,7 +24,7 @@ A small group of people working together in an office, often in countries outsid
 
 **Q4. What are the daily responsibilities of a worker in this profession?**
 
-Deal with companies looking to trade from and to Australia
+Deal with foreign companies looking to trade with Australia, and helping Australian companies find contacts overseas.
 
 **Q5. What high school courses would best prepare you for this occupation?**
 
