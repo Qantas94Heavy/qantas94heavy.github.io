@@ -2,15 +2,25 @@
 @import url(fonts/opensans/opensans.css);
 
 /* Space out content a bit */
-body {
+body, html {
   padding-top: 0;
-  padding-bottom: 20px;
+  padding-bottom: 0;
   background-color: #000;
   font-family: 'Open Sans';
+  color: #F3F3F3;
+  min-height: 100%;
 }
 
 .pointer {
   cursor: pointer;
+}
+
+a {
+  color: #529bda;
+}
+
+.jumbotron {
+  color: #000000;
 }
 
 .logo {
@@ -23,15 +33,20 @@ body {
   height: 32px;
 }
 
-/* stop background colour infecting container */
-.container {
-  margin-top: 0;
-}
-
 .grass {
   background-image: url(../img/grass.jpg);
   background-repeat: repeat;
-  background-size: 200px;
+  background-size: 300px;
+}
+
+.runway {
+  background-image: url(../img/runway_seamless.png);
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.content {
+  padding-bottom: 20px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -66,29 +81,28 @@ body {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
-}
-
-.runway {
-  background-image: url(../img/runway_seamless.png);
-  background-repeat: repeat-y;
-  background-size: cover;
-}
-
-.content {
-  border-radius: 4px;
-  
-}
+} 
 
 /* Customize container */
-@media (min-width: 1024px) {
-  .container {
-    max-width: 960px;
-  }
+/* stop background colour infecting container */
+.container {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 730px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 960px) {
+  .container {
+    max-width: 900px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
