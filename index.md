@@ -1,8 +1,6 @@
 ---
 layout: default
-redirect_from: /eportfolio/index.html
 redirect_from: /eportfolio/
-redirect_from: /eportfolio
 ---
 
 <div class="jumbotron">

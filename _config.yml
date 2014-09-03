@@ -5,7 +5,12 @@ defaults:
       path: "" # empty string for all files
     values:
       layout: default
-baseurl: /eportfolio
+      
+baseurl: ""
+
+gems:
+  - jekyll-redirect-from
+
 navigation:
   - text: About
     url: /about.html
