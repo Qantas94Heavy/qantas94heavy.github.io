@@ -51,12 +51,20 @@
           <li><a href="http://stackoverflow.com/users/2074608/qantas-94-heavy" class="logo">
             <img src="{{ site.baseurl }}/img/so-icon.png">
           </a></li>
+          
+          <li><a href="mailto:site+qantas94heavy@gmail.com" class="logo">
+            <img src="{{ site.baseurl }}/img/email.png">
+          </a></li>
 				</ul>
 			</div>
     </div>
     
-    
-    <div class="container runway">
+    {% assign runway = "" %}
+    {% if page.url != "/index.html" and page.url != "" %}
+      {% assign runway = "runway" %}
+    {% endif %}
+
+    <div class="container {{ runway }}">
       <div class="content">{{ content }}</div>
     </div> <!-- /container -->
 
