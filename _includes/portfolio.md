@@ -1,7 +1,3 @@
----
-layout: default
----
-
 ## Portfolio
 
 Here are a few example of what I've done.

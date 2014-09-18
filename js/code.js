@@ -15,3 +15,5 @@ $github.hover(function () {
 }, function () {
   $githubImg.attr('src', $githubImg.attr('src').replace('/GitHub-Mark', '/GitHub-Mark-Light'));
 });
+
+$('.main').onepage_scroll();
