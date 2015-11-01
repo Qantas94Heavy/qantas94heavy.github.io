@@ -6,7 +6,7 @@ redirect_from: /eportfolio/
 <div class="jumbotron">
   <h1>A few facts</h1>
   <p class="lead">
-    Hi! I'm Karl Cheng, a Year 10 student at the Australian International School Hong Kong.
+    Hi! I'm Karl Cheng, a Year 11 student at the Australian International School Hong Kong.
     I love programming and creating websites, and I'm always looking for new things to learn about.
     I'm also interested in public speaking, debating, science and mathematics.
   </p>
