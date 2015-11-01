@@ -17,34 +17,34 @@
   </head>
   <body class="grass">
     <div class="header">
-			<div class="container">
+      <div class="container">
         <h2 class="pull-left"><a href="{{ site.baseurl }}/">Karl Cheng</a></h2>
         
         <ul class="nav nav-pills pull-right">
-					{% for link in site.navigation %}
-						{% if link.children %}
+          {% for link in site.navigation %}
+            {% if link.children %}
               {% assign isActive = "" %}
               {% for child in link.children %}
                 {% if page.url == child.url %}
                   {% assign isActive = "active" %}
                 {% endif %}
               {% endfor %}
-							<li class="dropdown pointer {{ isActive }}">
-								<a class="dropdown-toggle" data-toggle="dropdown">{{ link.text }} <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-								{% for child in link.children %}
-									<li><a href="{{ site.baseurl }}{{ child.url }}">{{ child.text }}</a></li>
-								{% endfor %}
-								</ul>
-							</li> 
-						{% elsif page.url == link.url %}
-							<li class="active"><a href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a></li>
-						{% else %}
-							<li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a></li>
-						{% endif %}
-					{% endfor %}
+              <li class="dropdown pointer {{ isActive }}">
+                <a class="dropdown-toggle" data-toggle="dropdown">{{ link.text }} <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                {% for child in link.children %}
+                  <li><a href="{{ site.baseurl }}{{ child.url }}">{{ child.text }}</a></li>
+                {% endfor %}
+                </ul>
+              </li> 
+            {% elsif page.url == link.url %}
+              <li class="active"><a href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a></li>
+            {% else %}
+              <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a></li>
+            {% endif %}
+          {% endfor %}
           
-          <li id="github"><a href="https://github.com/Qantas94Heavy" class="logo">
+          <li id="github"><a href="https://github.com/Qantas94Heavy/" class="logo">
             <img src="{{ site.baseurl }}/img/github/PNG/GitHub-Mark-Light-32px.png">
           </a></li>
           
@@ -55,8 +55,8 @@
           <li><a href="mailto:qantas94heavy+site@gmail.com" class="logo">
             <img src="{{ site.baseurl }}/img/email.png">
           </a></li>
-				</ul>
-			</div>
+        </ul>
+      </div>
     </div>
     
     {% assign runway = "" %}
@@ -71,8 +71,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-		<script src="{{ site.baseurl }}/dist/js/jquery-1.11.1.js"></script>
+    <script src="{{ site.baseurl }}/dist/js/jquery-1.11.3.min.js"></script>
     <script src="{{ site.baseurl }}/dist/js/bootstrap.js"></script>
-		<script src="{{ site.baseurl }}/js/code.js"></script>
+    <script src="{{ site.baseurl }}/js/code.js"></script>
   </body>
 </html>
