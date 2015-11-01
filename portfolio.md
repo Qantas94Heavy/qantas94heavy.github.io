@@ -24,12 +24,10 @@ Here are a few example of what I've done.
 </div>
 
 <h3>Others</h3>
-  
-
 <div class="row marketing">
   <div class="col-lg-6">
     <h4>Let It Yo!</h4>
-    <img src="{{ site.baseurl }}/img/let-it-yo.png" alt="Screenshot of game">
+    <img src="{{ site.baseurl }}/img/let-it-yo.png" alt="Screenshot of game" class="img-responsive">
     
     Let It Yo! was a game created for the Christmas festivities during an internship with
     [Warmpaper Design](http://warmpaper-design.com) in 2014, utilising the HTML5 <code>&lt;canvas&gt;</code>
