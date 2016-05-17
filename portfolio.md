@@ -10,11 +10,11 @@ layout: default
   <h3>Programming</h3>
 
   <div class="row marketing">
-    <h4><a href="https://github.com/Qantas94Heavy/autopilot-pp">Autopilot++</a></h4>
+    <h4><a href="https://github.com/Qantas94Heavy/binary-gtlf-utils">GLTF to BGLTF Converter</a></h4>
 
-    Autopilot++ is a plugin for the <a href="http://www.gefs-online.com">GEFS-Online</a> flight simulator, bringing new functions
-    to the GEFS autopilot such as vertical speed control, improved autopilot handling, ICAO great circle navigation and separate
-    component controls.
+    This Node.js command line application allows users to easily convert GLTF files
+    (e.g. created using the COLLADA2GLTF application) offline without the use of the Cesium online
+    converter.
   </div>
 
   <div class="row marketing">
@@ -27,10 +27,11 @@ layout: default
   </div>
 
   <div class="row marketing">
-    <h4><a href="https://github.com/Qantas94Heavy/gamepad-shim">HTML5 Gamepad Shim</a></h4>
+    <h4><a href="https://github.com/Qantas94Heavy/autopilot-pp">Autopilot++</a></h4>
 
-    This attempts to utilise browser-specific prefixes and Adobe Flash as a fallback for the HTML5 Gamepad API,
-    allowing the use of joysticks in multiple browsers.
+    Autopilot++ is a plugin for the <a href="http://www.gefs-online.com">GEFS-Online</a> flight simulator, bringing new functions
+    to the GEFS autopilot such as vertical speed control, improved autopilot handling, ICAO great circle navigation and separate
+    component controls.
   </div>
 </div>
 
