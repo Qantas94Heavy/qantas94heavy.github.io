@@ -58,9 +58,9 @@ a {
 
 /* Custom page header */
 .header {
-  padding-top: 10px;
+  padding-top: 15px;
   border-bottom: 1px solid #000;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
 }
 
 /* Make the masthead heading the same height as the navigation */
@@ -80,7 +80,7 @@ a {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
-} 
+}
 
 /* Customize container */
 /* stop background colour infecting container */
