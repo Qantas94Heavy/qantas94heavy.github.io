@@ -57,7 +57,7 @@ layout: default
     </a>
   </div>
 
-  <div class="col-lg-6">
+  <div class="row marketing">
     <a href="{{ site.baseurl }}/img/img3.jpeg">
       <img src="{{ site.baseurl }}/img/img3-preview.jpeg"
            alt="Image of nature and road" class="img-responsive">
