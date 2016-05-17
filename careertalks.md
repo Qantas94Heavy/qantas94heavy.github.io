@@ -8,7 +8,7 @@ Name: Dan Tebbutt
 Title: Senior Trade Commissioner
 Workplace: Australian Trade Commission
 
-## Questions
+### Questions
 
 **Q1. What education/training is necessary for this career?**
 
@@ -49,3 +49,51 @@ There will be a niche requirement for these people in the long-term, however the
 **Q10. List two similar professions to the one you have heard about.**
 
 Some similar jobs that involve working with people include lawyers and marketing managers.
+
+---
+
+Name: Peter Tan  
+Title: Chief Operating Officer
+Workplace: RGA (Reinsurance Group of America)
+
+### Questions
+
+**Q1. What education/training is necessary for this career?**
+
+A strong background in mathematics, economics and accounting, as well as some knowledge of software for statistical modelling.
+
+**Q2. What skills are necessary to achieve success in this occupation?**
+
+Some skills include being able to structure ideas into logical sequences, as well as the ability to understand the nature of events happening in our society.
+
+**Q3. Describe the work environment in this occupation**
+
+Typically actuaries work from offices situated in global cities, requiring communication with clients as well as attending meetings around the world to discuss issues as they arise.
+
+**Q4. What are the daily responsibilities of a worker in this profession?**
+
+Researching market trends, global events as well as generating models to calculate the risks and costs associated with the types of insurance products being created.
+
+**Q5. What high school courses would best prepare you for this occupation?**
+
+High school courses such as Mathematics Extension 2, Economics and English Advanced are most useful for entering this sort of occupation.
+
+**Q6. Explain what further training you need after finishing secondary school to do have this career.**
+
+At university, you would need to undertake a course in Actuarial Studies and complete examinations to become a fellow with an internationally recognised actuary group, such as the Institute of Actuaries of Australia.
+
+**Q7. Which aspects of this profession most appeal to you?**
+
+What appeals to me most is the innovative application of mathematics towards real world use cases, as well as the use of critical and creative thinking in the modelling and development of financial products for insurance companies.
+
+**Q8. Which aspects of this profession are least attractive to you?**
+
+The large amount of time needed to secure a job in the industry, the need for further examinations to be accredited as an actuary and initial pay in some locations that is not attractive.
+
+**Q9. What is the future outlook for this profession?**
+
+Despite the industry being a traditionally small profession, the growth of several new markets in developing countries (such as China and India), as well as the creation of new financial products has meant that the market for actuaries is likely to increase in the long run. Furthermore, the ever-changing nature of our society means that new risks will emerge over time, which means that there will always be a certain level of demand for people in the actuarial profession.
+
+**Q10. List two similar professions to the one you have heard about.**
+
+Some similar jobs include mathematicians, statisticians and market researchers.
