@@ -4,11 +4,12 @@ layout: default
 
 ## Portfolio
 
-Here are a few example of what I've done.
+<p>Here are a few example of what I've done.</p>
 
-<h3>Programming</h3>
-<div class="row marketing">
-  <div class="col-lg-6">
+<div class="col-lg-6">
+  <h3>Programming</h3>
+
+  <div class="row marketing">
     <h4><a href="https://github.com/Qantas94Heavy/autopilot-pp">Autopilot++</a></h4>
 
     Autopilot++ is a plugin for the <a href="http://www.gefs-online.com">GEFS-Online</a> flight simulator, bringing new functions
@@ -16,16 +17,16 @@ Here are a few example of what I've done.
     component controls.
   </div>
 
-  <div class="col-lg-6">
+  <div class="row marketing">
     <h4>Let It Yo!</h4>
     <img src="{{ site.baseurl }}/img/let-it-yo.png" alt="Screenshot of game" class="img-responsive">
 
     Let It Yo! was a game created for the Christmas festivities during an internship with
-    [Warmpaper Design](http://warmpaper-design.com) in 2014, utilising the HTML5 <code>&lt;canvas&gt;</code>
+    <a href="http://warmpaper-design.com">Warmpaper Design</a> in 2014, utilising the HTML5 <code>&lt;canvas&gt;</code>
     feature to allow for animated graphics and gameplay.
   </div>
 
-  <div class="col-lg-6">
+  <div class="row marketing">
     <h4><a href="https://github.com/Qantas94Heavy/gamepad-shim">HTML5 Gamepad Shim</a></h4>
 
     This attempts to utilise browser-specific prefixes and Adobe Flash as a fallback for the HTML5 Gamepad API,
@@ -33,20 +34,23 @@ Here are a few example of what I've done.
   </div>
 </div>
 
-<h3>Photography</h3>
-<div class="row marketing">
-  Here are a few examples of some photographs I have taken. These can be reused under the
-  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons CC BY-SA 4.0</a>
-  licence.
+<div class="col-lg-6">
+  <h3>Photography</h3>
 
-  <div class="col-lg-6">
+  <div class="row marketing">
+    Here are a few examples of some photographs I have taken. These can be reused under the
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons CC BY-SA 4.0</a>
+    licence.
+  </div>
+
+  <div class="row marketing">
     <a href="{{ site.baseurl }}/img/img1.jpeg">
       <img src="{{ site.baseurl }}/img/img1-preview.jpeg"
            alt="Image of cyclist on road" class="img-responsive">
     </a>
   </div>
 
-  <div class="col-lg-6">
+  <div class="row marketing">
     <a href="{{ site.baseurl }}/img/img2.jpeg">
       <img src="{{ site.baseurl }}/img/img2-preview.jpeg"
            alt="Image of nature and road" class="img-responsive">
