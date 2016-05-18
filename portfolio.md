@@ -61,7 +61,8 @@ layout: default
   <div class="row marketing">
     <a href="{{ site.baseurl }}/img/img3.jpeg">
       <img src="{{ site.baseurl }}/img/img3-preview.jpeg"
-           alt="Image of nature and road" class="img-responsive">
+           alt="Image of NYC Subway station platform: South Ferry - Whitehall Street"
+           class="img-responsive">
     </a>
   </div>
 </div>
