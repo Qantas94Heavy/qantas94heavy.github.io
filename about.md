@@ -21,7 +21,16 @@ In my free time I:
  - Create various websites and applications in JavaScript, HTML and CSS.
  - Help to contribute to the Linux community by updating packages.
 
-This year I'm participating in the school musical production [_The Sound of Music_][SOM], which has
+This year I am taking the following subjects:
+
+ - Mathematics Extension 1 & 2
+ - English (Advanced)
+ - Economics
+ - Chemistry
+ - Physics
+ - Geography
+
+I'm also participating in the school musical production [_The Sound of Music_][SOM], which has
 provided me with an opportunity to enhance my acting and singing skills in a different environment.
 As well as challenging me to push myself in new situations, it also allows me to improve my ability
 to communicate with others more effectively, crucial in today's connected society.
