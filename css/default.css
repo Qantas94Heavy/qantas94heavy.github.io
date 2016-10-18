@@ -41,7 +41,7 @@ a {
 .runway {
   background-image: url(../img/runway_seamless.png);
   background-repeat: repeat-y;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .content {
@@ -126,6 +126,18 @@ a {
 }
 .marketing p + h4 {
   margin-top: 28px;
+}
+
+#photo-slider {
+  margin-top: 10px;
+}
+
+#photo-slider .carousel-caption {
+  padding-bottom: 15px;
+}
+
+#photo-slider .carousel-indicators {
+  bottom: 0;
 }
 
 /* Responsive: Portrait tablets and up */
