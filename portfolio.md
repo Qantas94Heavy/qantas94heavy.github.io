@@ -45,24 +45,48 @@ layout: default
   </div>
 
   <div class="row marketing">
-    <a href="{{ site.baseurl }}/img/img1.jpeg">
-      <img src="{{ site.baseurl }}/img/img1-preview.jpeg"
-           alt="Image of cyclist on road" class="img-responsive">
-    </a>
-  </div>
+    <div id="photo-slider" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#photo-slider" data-slide-to="0" class="active"></li>
+        <li data-target="#photo-slider" data-slide-to="1"></li>
+        <li data-target="#photo-slider" data-slide-to="2"></li>
+      </ol>
 
-  <div class="row marketing">
-    <a href="{{ site.baseurl }}/img/img2.jpeg">
-      <img src="{{ site.baseurl }}/img/img2-preview.jpeg"
-           alt="Image of nature and road" class="img-responsive">
-    </a>
-  </div>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="{{ site.baseurl }}/img/img1-preview.jpeg"
+              alt="Image of cyclist traversing Hong Kong's steep Route Twisk">
+          <div class="carousel-caption">
+            A cyclist traversing Hong Kong's steep Route Twisk
+          </div>
+        </div>
+        <div class="item">
+          <img src="{{ site.baseurl }}/img/img2-preview.jpeg"
+              alt="Image of an empty road near a secluded beach">
+          <div class="carousel-caption">
+            An empty road near a secluded beach
+          </div>
+        </div>
+        <div class="item">
+          <img src="{{ site.baseurl }}/img/img3-preview.jpeg"
+              alt="Image of NYC Subway station platform: South Ferry - Whitehall Street">
+          <div class="carousel-caption">
+            NYC Subway station platform: South Ferry - Whitehall Street
+          </div>
+        </div>
+      </div>
 
-  <div class="row marketing">
-    <a href="{{ site.baseurl }}/img/img3.jpeg">
-      <img src="{{ site.baseurl }}/img/img3-preview.jpeg"
-           alt="Image of NYC Subway station platform: South Ferry - Whitehall Street"
-           class="img-responsive">
-    </a>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </div>
 </div>

@@ -19,11 +19,11 @@ In my free time I:
  - Try to find interesting objects or locations to photograph.
  - Go to tennis classes on the weekend to stay active.
  - Create various websites and applications in JavaScript, HTML and CSS.
- - Help to contribute to the Linux community by updating packages.
+ - Contribute to the Linux community by updating software repository packages.
 
 This year I am taking the following subjects:
 
- - Mathematics Extension 1 & 2
+ - Mathematics Extension 1 and 2
  - English (Advanced)
  - Economics
  - Chemistry

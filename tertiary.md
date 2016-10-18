@@ -15,22 +15,32 @@ area I plan to stay in the future.
 Some options for further studies at university include the following:
 
  - University of NSW
-   * Actuarial Studies/Science (Advanced Mathematics) (Honours)
-     + 2016 cut-off ATAR: 97.50
-     + 2017 Guaranteed Selection Rank: 98.00
-     + 5 year course: 4 years + 1 year honours
-     + Assumed knowledge: Mathematics Extension 1
-   * Computer Science
+   * Engineering (Honours) and Surveying
      + 2016 cut-off ATAR: 91.00
      + 2017 Guaranteed Selection Rank: 92.00
+     + HSC Plus bonus points available
+     + 5 year course
+     + Assumed knowledge: Mathematics Extension 1, Physics
+   * Computer Science and Engineering (Honours)
+     + 2016 cut-off ATAR: 91.00
+     + 2017 Guaranteed Selection Rank: 92.00
+     + HSC Plus bonus points available
+     + 5 year course
+     + Assumed knowledge: Mathematics Extension 1, Physics
+ - Macquarie University
+   * Applied Finance and Acturial Studies
+     + 2016 cut-off ATAR: 97.20
+     + No bonus points available
+     + 4 year course
+     + Assumed knowledge: Mathematics Extension 1 (E4)
+ - University of Sydney
+   * Commerce and Science
+     + 2016 cut-off ATAR: 95.00
+     + No flexible entry scheme
+     + 5 year course
+     + Assumed knowledge: Mathematics
+   * Computer Science and Technology (Advanced)
+     + 2016 cut-off ATAR: 87.00
+     + Flexible entry scheme available
      + 3 year course
      + Assumed knowledge: Mathematics Extension 1
- - University of Sydney
-   * Science (Advanced)
-     + 2016 cut-off ATAR: 95.00
-     + Assumed knowledge: Mathematics
-     + 3 year course
-   * Combined Law (LLB) - Economics
-     + 2016 cut-off ATAR: 99.50
-     + Assumed knowledge: Mathematics
-     + 5 year course
