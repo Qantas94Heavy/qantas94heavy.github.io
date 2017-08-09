@@ -11,7 +11,7 @@ layout: default
     <h3>Programming</h3>
 
     <div class="row marketing">
-      <h4><a href="https://github.com/Qantas94Heavy/binary-gtlf-utils">GLTF to BGLTF Converter</a></h4>
+      <h4><a href="https://github.com/Qantas94Heavy/binary-gltf-utils">GLTF to BGLTF Converter</a></h4>
 
       This Node.js command line application allows users to easily convert GLTF files
       (e.g. created using the COLLADA2GLTF application) offline without the use of the Cesium online
