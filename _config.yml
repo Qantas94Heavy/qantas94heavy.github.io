@@ -31,3 +31,5 @@ navigation:
         url: /selfevaluation.html
       - text: Tertiary Options
         url: /tertiary.html
+  - text: GSoC 2017
+    url: /gsoc2017.html
