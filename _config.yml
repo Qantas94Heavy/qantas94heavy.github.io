@@ -18,18 +18,21 @@ navigation:
   - text: Portfolio
     url: /portfolio.html
     children: false
-  - text: Careers Info
-    url: /
-    children:
-      - text: Achievements
-        url: /achievements.html
-      - text: Personality
-        url: /personality.html
-      - text: Career Talks
-        url: /careertalks.html
-      - text: Self Evaluation
-        url: /selfevaluation.html
-      - text: Tertiary Options
-        url: /tertiary.html
+  - text: Achievements
+    url: /achievements.html
+    children: false
+#  - text: Careers Info
+#    url: /
+#    children:
+#      - text: Achievements
+#        url: /achievements.html
+#      - text: Personality
+#        url: /personality.html
+#      - text: Career Talks
+#        url: /careertalks.html
+#      - text: Self Evaluation
+#        url: /selfevaluation.html
+#      - text: Tertiary Options
+#        url: /tertiary.html
   - text: GSoC 2017
     url: /gsoc2017.html
