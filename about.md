@@ -21,7 +21,7 @@ _Academic Teacher (Casual)_
 * Provided inquisitive feedback and troubleshooting during personalised HELP sessions
 
 ### Zip Co Limited	(Jan 2020 – Mar 2020)
-Mobile Tech Intern
+_Mobile Tech Intern_
 * Supported agile team in the development of the Zip Android application in Kotlin
 * Coordinated with product team to suggest, implement and document app improvements
 * Troubleshooted multiple high priority issues, including a key analytics tracking bug involving multiple third-party libraries
