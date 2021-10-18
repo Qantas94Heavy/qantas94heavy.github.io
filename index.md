@@ -6,7 +6,7 @@ redirect_from: /eportfolio/
 <div class="jumbotron">
   <h1>Hello!</h1>
   <p class="lead">
-    I'm Karl Cheng. As a final year student and academic tutor at UNSW Sydney, I love programming, data analytics and collaboration,
+    I'm Karl Cheng. As a final year Actuarial/Comp Sci student and academic tutor at UNSW Sydney, I love programming, data analytics and collaboration,
     and I'm always looking for new things to learn about.
     I'm also involved with public speaking, managing university clubs and interested in finance.
   </p>
