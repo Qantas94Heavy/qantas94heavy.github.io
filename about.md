@@ -2,17 +2,38 @@
 layout: default
 ---
 
-## About me
+# About me
 
-My name's Karl Cheng, and I'm a Year 12 student at the Australian International School Hong Kong
-(AISHK).
+My name's Karl Cheng, and I'm a final year student and academic tutor studying
+Actuarial Studies & Computer Science at UNSW Sydney.
 
 I'm always on the lookout for new ways to do things, and I love to learn about a wide variety of
 subjects and how they apply to the real world. It's especially motivating when my work is actually
 able to help others, as well as being appreciated for my efforts. I also find it useful to be
 interested in the general field of the subject I'm learning about.
 
-### Skills and Interests
+## Experience
+
+### University of New South Wales	(Sep 2019 – present)
+_Academic Teacher (Casual)_
+* Delivered engaging lessons about systems design and algorithms to classes of 20-24 students
+* Developed course material to help cater for learning styles and support fundamental concepts
+* Provided inquisitive feedback and troubleshooting during personalised HELP sessions
+
+### Zip Co Limited	(Jan 2020 – Mar 2020)
+Mobile Tech Intern
+* Supported agile team in the development of the Zip Android application in Kotlin
+* Coordinated with product team to suggest, implement and document app improvements
+* Troubleshooted multiple high priority issues, including a key analytics tracking bug involving multiple third-party libraries
+* Implemented key ‘refer a friend’ growth feature, interfacing with AWS cloud services
+    
+### Google Summer of Code participant with Babel	(May 2017 – Aug 2017)
+_Software Developer Intern_
+* Software used by over 17 million users/month and major firms (Facebook, PayPal, Netflix)
+* Implemented new JavaScript standard feature proposals for major new release (Babel 7)
+* Collaborated with QA team to develop regression tests to reduce non-compliance issues
+
+## Skills and Interests
 
 In my free time I:
 
@@ -21,26 +42,7 @@ In my free time I:
  - Create various websites and applications in JavaScript, HTML and CSS.
  - Contribute to the Linux community by updating software repository packages.
 
-This year I am taking the following subjects:
-
- - Mathematics Extension 1 and 2
- - English (Advanced)
- - Economics
- - Chemistry
- - Physics
- - Geography
-
-I'm also participating in the school musical production [_The Sound of Music_][SOM], which has
-provided me with an opportunity to enhance my acting and singing skills in a different environment.
-As well as challenging me to push myself in new situations, it also allows me to improve my ability
-to communicate with others more effectively, crucial in today's connected society.
-
-I'm also interested in the aviation industry, as well as being an avid supporter of civil rights,
-such as free speech.
-
-  [SOM]: http://soundofmusic.aishk.edu.hk
-
-### Programming
+## Programming
 
 My favourite programming language is JavaScript, followed closely by Python (it would be if I could
 use it client-side). I'm currently learning how to use Rust, which requires quite a different
@@ -48,7 +50,7 @@ mindset, but its unique model does make it quite pleasant to use once you get th
 
 You can see a few of my works in my [portfolio]({{ site.baseurl }}/portfolio.html).
 
-#### How I got started
+### How I got started
 
 I first started developing at school with VB6, where I created various GUI boxes using exercises
 given by my teacher. I didn't find it too interesting and found the syntax rather cumbersome.
